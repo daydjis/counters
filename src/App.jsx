@@ -1,9 +1,12 @@
 import React from "react";
+import Counsters from "./components/counstersList";
 
-function App() {
+const App = () => {
   return (
-    <div className="App"></div>
+    <>
+      <Counsters />
+    </>
   );
-}
+};
 
 export default App;
